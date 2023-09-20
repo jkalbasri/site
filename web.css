@@ -1,0 +1,41 @@
+*
+{
+  box-sizing: border-box;
+}
+
+body
+{
+  font-family: courier new, monospace;
+  color: #0f8;
+  margin: 30px;
+  font-size: 13px;
+  height: 100vh;
+  background-color: #1d1f20;
+}
+
+#terminal
+{
+  white-space: pre-wrap;
+  line-height: 1.4;
+ font-size: 16px;
+
+}
+
+#cursor
+{
+  display: inline-block;
+  height: 1.35em;
+  width: 0.7em;
+  vertical-align: middle;
+  background-color: #fff;
+}
+
+.invisible
+{
+  opacity: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
